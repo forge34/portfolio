@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: oklch(10% 0.02 0);
+  --background: oklch(0.1845 0.0347 265.25);
   --foreground: oklch(90% 0.02 0);
 }
 
@@ -13,12 +13,9 @@
 }
 
 @theme {
-  --color-gradient-start: oklch(0.1854 0.0052 248.11);
-  --color-gradient-middle: oklch(0.2033 0.0146 172.29);
-  --color-gradient-end: oklch(0.2482 0.0402 158.79);
-  --color-card: #144023;
+  --color-primary: oklch(0.7017 0.077 188.81);
 }
 
 body {
-  color: oklch(0.9088 0.0035 247.86);
+  color: oklch(0.842 0.0531 280.46);
 }
