@@ -16,7 +16,7 @@ export default function ProjectCard({
   skills = [],
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="flex flex-col rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-lg hover:shadow-xl hover:scale-110 transition-shadow duration-300">
       <div className="relative w-full h-48">
         <Image
           src={imgUrl}
