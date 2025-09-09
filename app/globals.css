@@ -14,6 +14,9 @@
 
 @theme {
   --color-primary: oklch(0.7017 0.077 188.81);
+  --color-card: oklch(0.32 0.02 265.25);
+
+  --color-muted: oklch(0.72 0.025 280);
 }
 
 body {
