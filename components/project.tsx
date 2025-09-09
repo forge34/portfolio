@@ -8,7 +8,7 @@ export default function Project() {
         A selection of applications and experiments I’ve built using TypeScript,
         Node.js, React, and more.
       </p>
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
         <ProjectCard
           title="Full stack messaging app"
           description="A real-time chat app where users can sign up, log in, and instantly exchange messages using modern web technologies."
