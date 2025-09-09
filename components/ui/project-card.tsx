@@ -16,7 +16,7 @@ export default function ProjectCard({
   skills = [],
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+    <div className="flex flex-col rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-lg  hover:shadow-xl hover:scale-105 transition-all duration-300">
       <div className="relative w-full h-48">
         <Image
           src={imgUrl}
@@ -35,7 +35,7 @@ export default function ProjectCard({
             {skills.map((skill) => (
               <span
                 key={skill}
-                className="px-3 py-1 text-xs font-medium rounded-full bg-primary/20 text-primary border border-primary/40"
+                className="px-3 py-1 text-xs font-medium rounded-full bg-primary/20 text-primary hover:brightness-135 border border-primary/40"
               >
                 {skill}
               </span>

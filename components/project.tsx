@@ -2,7 +2,7 @@ import ProjectCard from "./ui/project-card";
 
 export default function Project() {
   return (
-    <section id="projects" className="py-24 px-16 text-center">
+    <section id="projects" className="py-12 px-16 text-center">
       <h2 className="text-4xl font-bold mb-6">My Projects</h2>
       <p className="text-lg opacity-80 mb-12">
         A selection of applications and experiments I’ve built using TypeScript,
